@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Testing on PR")
 	token := os.Getenv("GITHUB_TOKEN")
 	fmt.Printf("TOKEN: %s", token)
 }
